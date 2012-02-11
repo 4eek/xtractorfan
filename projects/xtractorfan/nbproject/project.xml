@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.cnd.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>xtractorfan</name>
+            <make-project-type>0</make-project-type>
+            <c-extensions/>
+            <cpp-extensions>cpp</cpp-extensions>
+            <header-extensions>h</header-extensions>
+            <make-dep-projects>
+                <make-dep-project>../plugins/std_cxx_static_example</make-dep-project>
+                <make-dep-project>../plugins/std_cxx_static_example_plugin</make-dep-project>
+                <make-dep-project>../utils</make-dep-project>
+                <make-dep-project>../portability</make-dep-project>
+                <make-dep-project>../plugin_framework</make-dep-project>
+                <make-dep-project>../object_model</make-dep-project>
+            </make-dep-projects>
+            <sourceRootList/>
+            <confList>
+                <confElem>
+                    <name>Debug</name>
+                    <type>1</type>
+                </confElem>
+                <confElem>
+                    <name>Release</name>
+                    <type>1</type>
+                </confElem>
+            </confList>
+            <sourceEncoding>UTF-8</sourceEncoding>
+        </data>
+    </configuration>
+</project>

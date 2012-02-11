@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="47">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>c_ExtractorModel.h</itemPath>
+      <itemPath>ExtractorAdapter.h</itemPath>
+      <itemPath>ExtractorBaseTemplate.h</itemPath>
+      <itemPath>ExtractorFactory.h</itemPath>
+      <itemPath>ExtractorInfoContainer.h</itemPath>
+      <itemPath>ExtractorModel.h</itemPath>
+      <itemPath>ExtractorModelWrappers.h</itemPath>
+      <itemPath>Services.h</itemPath>
+      <itemPath>Session.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Session.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceEncoding>UTF-8</sourceEncoding>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <ccCompilerTool>
+          <includeDirectories>
+            <directoryPath>../../include/</directoryPath>
+            <directoryPath>../../include/linux32</directoryPath>
+            <directoryPath>..</directoryPath>
+            <directoryPath>.</directoryPath>
+          </includeDirectories>
+          <inheritIncValues>false</inheritIncValues>
+          <preprocessorList>
+            <Elem>PF_PLATFORM_LINUX</Elem>
+            <Elem>APR_DECLARE_STATIC</Elem>
+            <Elem>APU_DECLARE_STATIC</Elem>
+          </preprocessorList>
+        </ccCompilerTool>
+        <archiverTool>
+          <output>dist/Debug/GNU-Linux-x86/libobject_model.a</output>
+        </archiverTool>
+      </compileType>
+      <item path="ExtractorAdapter.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorBaseTemplate.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorInfoContainer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorModel.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorModelWrappers.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Services.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Session.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="Session.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="c_ExtractorModel.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cCompilerTool>
+          <developmentMode>5</developmentMode>
+        </cCompilerTool>
+        <ccCompilerTool>
+          <developmentMode>5</developmentMode>
+          <includeDirectories>
+            <directoryPath>../../include/</directoryPath>
+            <directoryPath>../../include/linux32</directoryPath>
+            <directoryPath>..</directoryPath>
+          </includeDirectories>
+          <preprocessorList>
+            <Elem>PF_PLATFORM_LINUX</Elem>
+            <Elem>APR_DECLARE_STATIC</Elem>
+            <Elem>APU_DECLARE_STATIC</Elem>
+          </preprocessorList>
+        </ccCompilerTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="ExtractorAdapter.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorBaseTemplate.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorFactory.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorInfoContainer.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorModel.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="ExtractorModelWrappers.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Services.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="Session.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="Session.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="c_ExtractorModel.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
